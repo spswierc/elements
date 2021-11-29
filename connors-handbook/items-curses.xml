@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Curses</name>
+		<update version="0.0.1">
+			<file name="curses.xml" url="" />
+		</update>
+	</info>
+	<element name="Werebear Lycanthropy (Hybrid/Beast)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREBEARHYBRID">
+		<description>
+			<p>The Character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="19"  />
+			<stat name="ac:misc" value="1" />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BEAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BEAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	
+	<element name="Werebear Lycanthropy (Humanoid)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREBEARHUMANOID">
+		<description>
+			<p>The Character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="19"  />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BEAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BEAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	
+	<element name="Wereboar Lycanthropy (Hybrid/Beast)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREBOARHYBRID">
+		<description>
+			<p>The Character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="17"  />
+			<stat name="ac:misc" value="1" />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BOAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BOAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BTW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	
+	<element name="Wereboar Lycanthropy (Humanoid)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREBOARHUMANOID">
+		<description>
+			<p>The Character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="17"  />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BOAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BOAR" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BTW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	
+	<element name="Wererat Lycanthropy" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WERERAT">
+		<description>
+			<p>The Character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="dexterity:score:set" bonus="base" value="15"  />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_RAT" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_RAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	
+	<element name="Weretiger Lycanthropy" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WERETIGER">
+		<description>
+			<p>The Character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on whichever is higher of the character's Dexterity or Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="17"  />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_TIGER" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_TIGER" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BTW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	
+	<element name="Werewolf Lycanthropy (Hybrid/Beast)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREWOLFHYBRID">
+		<description>
+			<p>The Character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="17"  />
+			<stat name="ac:misc" value="1" />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_WOLF" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_WOLF" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BTW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	
+	<element name="Werewolf Lycanthropy (Humanoid)" type="Magic Item" source="Connor’s Handbook" id="ID_DDBB_CHB_CURSE_WEREWOLFHUMANOID">
+		<description>
+			<p>The Character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC in hybrid or bear form (from natural armor). Attack and Damage rolls for the natural weapons are based on Strength.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Curse</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" bonus="base" value="15"  />
+			<grant type="Condition" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_WOLF" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_KEENSMELL" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_WOLF" />
+			<grant type="Class Feature" id="ID_DDBB_CHB_FEATURE_SPEED_BTW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	
+	
+	<element name="Immunity Non-Magical, Non-Silvered Physical Damage" type="Condition" source="Internal" id="ID_DDBB_CHB_CONDITION_DAMAGE_IMMUNITY_PHYSICAL">
+        <supports>Immunity</supports>
+    </element>
+	
+	<element name="Speed Difference" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SPEED_BEAR">
+		<description>
+			<p>The werebear can move at a speed of 40ft per turn and climb 30ft per turn in hybrid or bear form.</p>
+		</description>
+		<sheet>
+			<description>The werebear can move at a speed of 40ft per turn and climb 30ft per turn in hybrid or bear form.</description>
+		</sheet>
+	</element>
+	
+	<element name="Speed Difference" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SPEED_BTW">
+		<description>
+			<p>The werebeast can move at a speed of 40ft per turn in beast form.</p>
+		</description>
+		<sheet>
+			<description>The werebest can move at a speed of 40ft per turn in beast form.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BEAR">
+		<description>
+			<p>The Werebear can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its AC and Size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The Werebear can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its AC and Size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_BOAR">
+		<description>
+			<p>The Wereboar can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The Wereboar can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_RAT">
+		<description>
+			<p>The Wererat can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The Wererat can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_TIGER">
+		<description>
+			<p>The Weretiger can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The Weretiger can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</description>
+		</sheet>
+	</element>
+	
+	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_SHAPECHANGER_WOLF">
+		<description>
+			<p>The Werewolf can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The Werewolf can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</description>
+		</sheet>
+	</element>
+	
+	<element name="Keen Smell" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_KEENSMELL">
+		<description>
+			<p>The Werecreature has advantage on any Wisdom (Perception) checks that rely on smell.</p>
+		</description>
+		<sheet>
+			<description>The Werecreature has advantage on any Wisdom (Perception) checks that rely on smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Keen Hearing and Smell" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_KEENHEARINGANDSMELL">
+		<description>
+			<p>The Werecreature has advantage on any Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The Werecreature has advantage on any Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	
+	<element name="Multiattack" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BEAR">
+		<description>
+			<p>In bear form the werebear makes two claw attacks. In humanoid form the werebear makes two Weapon attacks. In hybrid form the werebear can attack as a humanoid or a bear.</p>
+		</description>
+		<sheet>
+			<description>In bear form the werebear makes two claw attacks. In humanoid form the werebear makes two Weapon attacks. In hybrid form the werebear can attack as a humanoid or a bear.</description>
+		</sheet>
+	</element>
+	
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_BOAR">
+		<description>
+			<p>The wereboar makes two attacks only one of which can be with its tusks.</p>
+		</description>
+		<sheet>
+			<description>The wereboar makes two attacks only one of which can be with its tusks.</description>
+		</sheet>
+	</element>
+	
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_RAT">
+		<description>
+			<p>The wererat makes two attacks only one of which can be a bite.</p>
+		</description>
+		<sheet>
+			<description>The wererat makes two attacks only one of which can be a bite.</description>
+		</sheet>
+	</element>
+	
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_TIGER">
+		<description>
+			<p>In humanoid form the weretiger makes two weapon attacks. In hybrid form the weretiger can attack like a human or make two claw attacks.</p>
+		</description>
+		<sheet>
+			<description>In humanoid form the weretiger makes two weapon attacks. In hybrid form the weretiger can attack like a human or make two claw attacks.</description>
+		</sheet>
+	</element>
+	
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_MULTIATTACK_WOLF">
+		<description>
+			<p>The werewolf makes two attacks: one with its bite and one with its claws or weapon.</p>
+		</description>
+		<sheet>
+			<description>The werewolf makes two attacks: one with its bite and one with its claws or weapon.</description>
+		</sheet>
+	</element>
+	
+	<element name="Charge (Hybrid or Boar form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_CHARGE">
+		<description>
+			<p>If the wereboar moves at least 15 feet straight toward a target and hits it with its tusks in the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature it must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>If the wereboar moves at least 15 feet straight toward a target and hits it with its tusks in the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature it must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+	
+	<element name="Relentless (Recharges after a short or long rest)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_RELENTLESS">
+		<description>
+			<p>If the wereboar takes 14 or less damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</p>
+		</description>
+		<sheet>
+			<description>If the wereboar takes 14 or less damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</description>
+		</sheet>
+	</element>
+	
+	<element name="Pounce (Hybrid or tiger form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CHB_FEATURE_RELENTLESS">
+		<description>
+			<p>If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone. If the target is knocked prone, the weretiger can make one bite attack against it as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone. If the target is knocked prone, the weretiger can make one bite attack against it as a bonus action.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bite (Bear or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_BITE_BEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p>If the target is Humanoid, it must succeed on a DC (8 + Constitution Modifier + Profeciency Bonus) Constitution Saving Throw or be cursed with werebear lycanthropy.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="piercing">2d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Claw (Bear or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_CLAW_BEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="slashing">2d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Tusks (Boar or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_BITE_BOAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+		<description>
+			<p>If the target is Humanoid, it must succeed on a DC (8 + Constitution Modifier + Profeciency Bonus) Constitution Saving Throw or be cursed with wereboar lycanthropy.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="bludgeoning">2d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Bite (Rat or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_BITE_RAT">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p>If the target is Humanoid, it must succeed on a DC (8 + Constitution Modifier + Profeciency Bonus) Constitution Saving Throw or be cursed with wererat lycanthropy.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Bite (Tiger or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_BITE_TIGER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p>If the target is Humanoid, it must succeed on a DC (8 + Constitution Modifier + Profeciency Bonus) Constitution Saving Throw or be cursed with weretiger lycanthropy.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Claw (Tiger or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_CLAW_TIGER">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Bite (Wolf or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_BITE_WOLF">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING</supports>
+		<description>
+			<p>If the target is Humanoid, it must succeed on a DC (8 + Constitution Modifier + Profeciency Bonus) Constitution Saving Throw or be cursed with weretiger lycanthropy.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Claw (Wolf or Hybrid form only)" type="Weapon" source="Connor’s Handbook" id="ID_DDBB_CHB_WEAPON_CLAW_WOLF">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="slot">gift</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	<element name="Werebear" type="Item" source="Player’s Handbook" id="ID_DDBB_CHB_ITEM_BEAR">
+		<description>
+			<p>Includes all items for Werebear.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+		</setters>
+		<extract>
+			<item>ID_DDBB_CHB_CURSE_WEREBEARHYBRID</item>
+			<item>ID_DDBB_CHB_CURSE_WEREBEARHUMANOID</item>
+			<item>ID_DDBB_CHB_WEAPON_BITE_BEAR</item>
+			<item>ID_DDBB_CHB_WEAPON_CLAW_BEAR</item>
+		</extract>
+	</element>
+	
+	<element name="Wereboar" type="Item" source="Player’s Handbook" id="ID_DDBB_CHB_ITEM_BOAR">
+		<description>
+			<p>Includes all items for Wereboar.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+		</setters>
+		<extract>
+			<item>ID_DDBB_CHB_CURSE_WEREBOARHYBRID</item>
+			<item>ID_DDBB_CHB_CURSE_WEREBOARHUMANOID</item>
+			<item>ID_DDBB_CHB_WEAPON_BITE_BOAR</item>
+		</extract>
+	</element>
+	
+	<element name="Wererat" type="Item" source="Player’s Handbook" id="ID_DDBB_CHB_ITEM_RAT">
+		<description>
+			<p>Includes all items for Wererat.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+		</setters>
+		<extract>
+			<item>ID_DDBB_CHB_CURSE_WERERAT</item>
+			<item>ID_DDBB_CHB_WEAPON_BITE_RAT</item>
+		</extract>
+	</element>
+	
+	<element name="Weretiger" type="Item" source="Player’s Handbook" id="ID_DDBB_CHB_ITEM_TIGER">
+		<description>
+			<p>Includes all items for Weretiger.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+		</setters>
+		<extract>
+			<item>ID_DDBB_CHB_CURSE_WERETIGER</item>
+			<item>ID_DDBB_CHB_WEAPON_BITE_TIGER</item>
+			<item>ID_DDBB_CHB_WEAPON_CLAW_TIGER</item>
+		</extract>
+	</element>
+	
+	<element name="Werewolf" type="Item" source="Player’s Handbook" id="ID_DDBB_CHB_ITEM_WOLF">
+		<description>
+			<p>Includes all items for Werewolf.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+		</setters>
+		<extract>
+			<item>ID_DDBB_CHB_CURSE_WEREWOLFHYBRID</item>
+			<item>ID_DDBB_CHB_CURSE_WEREWOLFHUMANOID</item>
+			<item>ID_DDBB_CHB_WEAPON_BITE_WOLF</item>
+			<item>ID_DDBB_CHB_WEAPON_CLAW_WOLF</item>
+		</extract>
+	</element>
+</elements>
