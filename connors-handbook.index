@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="" />
+		<file name="source.xml" url="test" />
 		<file name="spells.xml" url="" />
 		<file name="items-mounts.xml" url="" />
 		<file name="items-curses.xml" url="" />
