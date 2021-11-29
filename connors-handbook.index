@@ -5,7 +5,7 @@
 		<description>Connor’s Handbook is the essential reference for all the bullshit custom made by this tard rangler</description>
 		<author>Double D Baby</author>
 		<update version="0.1">
-			<file name="connors-handbook.index" url="" />
+			<file name="connors-handbook.index" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook.index" />
 		</update>
 	</info>
 	<files>

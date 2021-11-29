@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="source.xml" url=""/>
+			<file name="source.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/source.xml"/>
 		</update>
 	</info>
 	<element name="Connor’s Handbook" type="Source" source="Custom" id="ID_DDBB_SOURCE_CONNORS_HANDBOOK">

@@ -5,7 +5,7 @@
 		<description>The Vengeful Oathbreaker Sacred Oath for the Paladin</description>
 		<author>Double D Baby</author>
 		<update version="0.0.1">
-			<file name="class-vengeful-oathbreaker.xml" url=""/>
+			<file name="class-vengeful-oathbreaker.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/class-vengeful-oathbreaker.xml"/>
 		</update>
 	</info>
 

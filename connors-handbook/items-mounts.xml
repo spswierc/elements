@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Double D Baby</author>
 		<update version="0.0.1">
-			<file name="items-mounts.xml" url=""/>
+			<file name="items-mounts.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-mounts.xml"/>
 		</update>
 	</info>
 	<element name="Pegasus" type="Item" source="Connor’s Handbook" id="ID_DDBB_CHB_ITEM_PEGASUS">
