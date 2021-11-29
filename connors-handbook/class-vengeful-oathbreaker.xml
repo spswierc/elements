@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Vengeful Oathbreaker</name>
+		<description>The Vengeful Oathbreaker Sacred Oath for the Paladin</description>
+		<author>Double D Baby</author>
+		<update version="0.0.1">
+			<file name="class-vengeful-oathbreaker.xml" url=""/>
+		</update>
+	</info>
+
+	<element name="Oath of Vengeful Oathbreaker" type="Archetype" source="Connor’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_PALADIN_OATH_OF_VENGEful_Oathbreaker">
+		<supports>Sacred Oath</supports>
+		<description>
+			<p>Bahamut go Brrr</p>
+			<h5 class="caption">Tenets of the Ancients</h5>
+			<p>The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.</p>
+			<p class="indent"><b><i>Fight the Greater Evil.</i></b> Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil.</p>
+			<p class="indent"><b><i>No Mercy for the Wicked.</i></b> Ordinary foes might win my mercy, but my sworn enemies do not.</p>
+			<p class="indent"><b><i>By Any Means Necessary.</i></b> My qualms can’t get in the way of exterminating my foes.</p>
+			<p class="indent"><b><i>Restitution.</i></b> If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</p>
+			<div element="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS" />
+			
+			<div element="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY" />
+			<div element="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER" />
+			<div element="ID_DDBB_CHB_ARCHETYPE_FEATURE_OATHBREAKER_SUPERNATURAL_RESISTANCE" />
+			<div element="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL" />
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS" level="3" />
+			
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY" level="3" />
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER" level="7" />
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OATHBREAKER_SUPERNATURAL_RESISTANCE" level="15" />
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL" level="20" />
+		</rules>
+	</element>
+
+
+	<element name="Oath Spells" type="Archetype Feature" source="Player’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS">
+		<description>
+			<p>You gain oath spells at the paladin levels listed.</p>
+			<h5>OATH OF VENGEful Oathbreaker SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Paladin Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>bane, hunter’s mark</em></td></tr>
+				<tr><td>5th</td><td><em>hold person, misty step</em></td></tr>
+				<tr><td>9th</td><td><em>haste, protection from energy</em></td></tr>
+				<tr><td>13th</td><td><em>banishment, dimension door</em></td></tr>
+				<tr><td>17th</td><td><em>hold monster, scrying</em></td></tr>
+				
+				<tr><td>3rd</td><td><em>hellish rebuke, inflict wounds</em></td></tr>
+				<tr><td>5th</td><td><em>crown of madness, darkness</em></td></tr>
+				<tr><td>9th</td><td><em>animate dead, bestow curse</em></td></tr>
+				<tr><td>13th</td><td><em>blight, confusion</em></td></tr>
+				<tr><td>17th</td><td><em>contagion, dominate person</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="3" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="5" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="13" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="17" spellcasting="Paladin" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Paladin" prepared="true"/>
+			
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" level="3" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CROWN_OF_MADNESS" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" level="9" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="13" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" level="17" spellcasting="Paladin" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="17" spellcasting="Paladin" prepared="true" />
+		</rules>
+	</element>
+
+
+
+
+
+
+
+
+
+	<element name="Channel Divinity" type="Archetype Feature" source="Player’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY">
+		<description>
+			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+			<p class="indent"><b><i>Control Undead.</i></b> As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.</p>
+			<p class="indent"><b><i>Vow of Enmity.</i></b> As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</p>
+		</description>
+		<sheet display="false">
+			<description>You have the Control Undead and Vow of Enmity Channel Divinity options.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OATHBREAKER_CHANNEL_DIVINITY_CONTROL_UNDEAD" />
+			<grant type="Archetype Feature" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_VOW_OF_ENMITY" />
+		</rules>
+	</element>
+	
+	
+	
+	
+
+
+
+
+
+	<element name="Channel Divinity: Control Undead" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OATHBREAKER_CHANNEL_DIVINITY_CONTROL_UNDEAD">
+		<description>
+			<p>As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.</p>
+		</description>
+		<sheet alt="Control Undead" action="Action" usage="Channel Divinity">
+			<description>You target one undead creature you can see within 30 feet. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Divinity option again. An undead whose challenge rating is equal to or greater than {{level:paladin}} is immune to this effect.</description>
+		</sheet>
+	</element>
+
+	<element name="Channel Divinity: Vow of Enmity" type="Archetype Feature" source="Player’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_VOW_OF_ENMITY">
+		<description>
+			<p>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</p>
+		</description>
+		<sheet alt="Vow of Enmity" action="Bonus Action" usage="Channel Divinity">
+			<description>You can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</description>
+		</sheet>
+	</element>
+
+	<element name="Relentless Avenger" type="Archetype Feature" source="Player’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER">
+		<description>
+			<p>By 7th level, your supernatural focus helps you close off a foe’s retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn’t provoke opportunity attacks.</p>
+		</description>
+		<sheet>
+			<description>When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn’t provoke opportunity attacks.</description>
+		</sheet>
+	</element>
+
+	<element name="Supernatural Resistance" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OATHBREAKER_SUPERNATURAL_RESISTANCE">
+		<description>
+			<p>At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</description>
+		</sheet>
+	</element>
+
+	<element name="Avenging Angel" type="Archetype Feature" source="Player’s Handbook" id="ID_DDBB_CHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL">
+		<description>
+			<p>At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:</p>
+			<ul>
+				<li>Wings sprout from your back and grant you a flying speed of 60 feet.</li>
+				<li>You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.</li>
+			</ul>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>For 1 hour, you gain the following benefits:
+			Wings sprout from your back and grant you a flying speed of 60 feet.
+			You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.</description>
+		</sheet>
+	</element>
+
+</elements>

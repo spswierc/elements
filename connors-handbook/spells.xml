@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <update version="0.0.1">
+      <file name="spells.xml" url=""/>
+    </update>
+  </info>
+
+  <element name="Zark's Guiding Withdrawal" type="Spell" source="Connor’s Handbook" id="ID_CHB_SPELL_ZARKS_GUIDING_WITHDRAWAL">
+    <supports>Sorcerer, Wizard, Paladin</supports>
+    <description>
+      <p>You begin to see dark shadows grow around the edges of your vision. You pick a location or creature you know (or can describe clearly). Make wisdom save against a DC besed on the distance to your target (Up to DM discretion, though they do not have to discolse this DC to you)</p>
+      <p class="indent">300FT: DC9</p>
+	  <p class="indent">500FT: DC12</p>
+	  <p class="indent">1000FT: DC14</p>
+	  <p class="indent">1500FT: DC17</p>
+	  <p class="indent">2500FT: DC20</p>
+	  <p>If you succeed, the shadows possess you. Externally, all other people see you as foaming at the mouth and- essentially unable to control yourself. Internally, the shadows send tendrils which wrap around your arms and legs and drag you along toward your destination. You move at your maximum move speed (dashing, if possible) in the direction of the target with no regard for barriers or blocks that you can pass through normally or as difficult terrain. Once you arrive at your destination, the shadows relinquish control and eventually fade away. If you are currently withdrawing from drug addiction or overdosing, you may cast this spell at its lowest level without expending a spell slot or requiring the material component.</p>
+    </description>
+    <setters>
+      <set name="keywords">zark</set>
+      <set name="level">4</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small amount of any hullucinogenic drug, which is consumed</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>

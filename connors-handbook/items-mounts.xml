@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mounts &amp; Vehicles</name>
+		<description></description>
+		<author>Double D Baby</author>
+		<update version="0.0.1">
+			<file name="items-mounts.xml" url=""/>
+		</update>
+	</info>
+	<element name="Pegasus" type="Item" source="Connor’s Handbook" id="ID_DDBB_CHB_ITEM_PEGASUS">
+		<description>
+			<p>STR=+4 DEX=+2 CON=+3 INT+0 WIS=+2 CHA=+1</p>
+			<p>Saving Throws DEX +4, WIS +4, CHA +3</p>
+			<p>Skills Perception +6</p>
+			<p>Senses Passive Perception 16</p>
+			<p>Languages Celestial, Common, Elvish and Sylvan but can't speak</p>
+			<p>Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</p>
+			<p><strong><em>Speed.</em></strong> 60 ft., fly 90 ft.<br/><strong><em>Carrying Capacity.</em></strong> 480 lb.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0" excludeEncumbrance="true">—</set>
+			<set name="type">Mount</set>
+		</setters>
+	</element>	
+</elements>

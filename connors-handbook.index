@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Connors’s Handbook</name>
+		<description>Connor’s Handbook is the essential reference for all the bullshit custom made by this tard rangler</description>
+		<author>Double D Baby</author>
+		<update version="0.1">
+			<file name="connors-handbook.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="" />
+		<file name="spells.xml" url="" />
+		<file name="items-mounts.xml" url="" />
+		<file name="class-vengeful-oathbreaker.xml" url="" />
+	</files>
+</index>
