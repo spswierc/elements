@@ -9,10 +9,10 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="test" />
-		<file name="spells.xml" url="" />
-		<file name="items-mounts.xml" url="" />
-		<file name="items-curses.xml" url="" />
-		<file name="class-vengeful-oathbreaker.xml" url="" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/source.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/spells.xml" />
+		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-mounts.xml" />
+		<file name="items-curses.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-curses.xml" />
+		<file name="class-vengeful-oathbreaker.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/class-vengeful-oathbreaker.xml" />
 	</files>
 </index>
