@@ -20,7 +20,8 @@
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="3" prepared="true" />
 		</rules>
-		
+	</element>
+</elements>
 		
 		
 		
