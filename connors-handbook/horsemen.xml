@@ -20,11 +20,5 @@
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="3" prepared="true" />
 		</rules>
-		
-		
-		
-		
-		
-		
-		
-		<!-- After retrieving Despair, the Pale rider's steed, he is sealed witin and can be summoned for travel.-->
+	</element>
+</elements>
