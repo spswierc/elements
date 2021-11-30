@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">CGS</set>
 			<set name="url">https://github.com/spswierc/elements</set>
-			<set name="image">https://raw.githubusercontent.com/spswierc/elements/master/Connor's%20Guide%20to%20the%20Spectrum.jpg</set>
+			<set name="image">https://raw.githubusercontent.com/spswierc/elements/master/Connor's%20Guide%20to%20the%20Spectrum.png</set>
 			<set name="errata">https://raw.githubusercontent.com/spswierc/elements/master/Connor's%20Guide%20to%20the%20Spectrum.pdf</set>
 			<set name="author" abbreviation="DDBB" url="https://github.com/spswierc/elements">Double D Baby</set>
 			<set name="official">false</set>

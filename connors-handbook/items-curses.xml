@@ -177,7 +177,7 @@
         <supports>Immunity</supports>
     </element>
 	
-	<element name="Speed Difference" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SPEED_BEAR">
+	<element name="Speed Difference" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SPEED_BEAR">
 		<description>
 			<p>The werebear can move at a speed of 40ft per turn and climb 30ft per turn in hybrid or bear form.</p>
 		</description>
@@ -186,7 +186,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Speed Difference" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SPEED_BTW">
+	<element name="Speed Difference" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SPEED_BTW">
 		<description>
 			<p>The werebeast can move at a speed of 40ft per turn in beast form.</p>
 		</description>
@@ -195,7 +195,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_BEAR">
+	<element name="Shapechanger" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_BEAR">
 		<description>
 			<p>The Werebear can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except its AC and Size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
 		</description>
@@ -204,7 +204,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_BOAR">
+	<element name="Shapechanger" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_BOAR">
 		<description>
 			<p>The Wereboar can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
 		</description>
@@ -213,7 +213,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_RAT">
+	<element name="Shapechanger" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_RAT">
 		<description>
 			<p>The Wererat can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
 		</description>
@@ -222,7 +222,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_TIGER">
+	<element name="Shapechanger" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_TIGER">
 		<description>
 			<p>The Weretiger can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its size remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
 		</description>
@@ -231,7 +231,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Shapechanger" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_WOLF">
+	<element name="Shapechanger" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_SHAPECHANGER_WOLF">
 		<description>
 			<p>The Werewolf can use its action to Polymorph into a Hybrid form, Full Beast form, or its True form. Its statistics except as its AC remain the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to it's true form if it dies.</p>
 		</description>
@@ -240,7 +240,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Keen Smell" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_KEENSMELL">
+	<element name="Keen Smell" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_KEENSMELL">
 		<description>
 			<p>The Werecreature has advantage on any Wisdom (Perception) checks that rely on smell.</p>
 		</description>
@@ -249,7 +249,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Keen Hearing and Smell" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_KEENHEARINGANDSMELL">
+	<element name="Keen Hearing and Smell" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_KEENHEARINGANDSMELL">
 		<description>
 			<p>The Werecreature has advantage on any Wisdom (Perception) checks that rely on hearing or smell.</p>
 		</description>
@@ -258,7 +258,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Multiattack" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_BEAR">
+	<element name="Multiattack" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_BEAR">
 		<description>
 			<p>In bear form the werebear makes two claw attacks. In humanoid form the werebear makes two Weapon attacks. In hybrid form the werebear can attack as a humanoid or a bear.</p>
 		</description>
@@ -267,7 +267,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_BOAR">
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_BOAR">
 		<description>
 			<p>The wereboar makes two attacks only one of which can be with its tusks.</p>
 		</description>
@@ -276,7 +276,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_RAT">
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_RAT">
 		<description>
 			<p>The wererat makes two attacks only one of which can be a bite.</p>
 		</description>
@@ -285,7 +285,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_TIGER">
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_TIGER">
 		<description>
 			<p>In humanoid form the weretiger makes two weapon attacks. In hybrid form the weretiger can attack like a human or make two claw attacks.</p>
 		</description>
@@ -294,7 +294,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_WOLF">
+	<element name="Multiattack (Humanoid or Hybrid form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_MULTIATTACK_WOLF">
 		<description>
 			<p>The werewolf makes two attacks: one with its bite and one with its claws or weapon.</p>
 		</description>
@@ -303,7 +303,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Charge (Hybrid or Boar form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_CHARGE">
+	<element name="Charge (Hybrid or Boar form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_CHARGE">
 		<description>
 			<p>If the wereboar moves at least 15 feet straight toward a target and hits it with its tusks in the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature it must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone.</p>
 		</description>
@@ -312,7 +312,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Relentless (Recharges after a short or long rest)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_RELENTLESS">
+	<element name="Relentless (Recharges after a short or long rest)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_RELENTLESS">
 		<description>
 			<p>If the wereboar takes 14 or less damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</p>
 		</description>
@@ -321,7 +321,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Pounce (Hybrid or tiger form only)" type="Class Feature" source="Connor's Handbook" id="ID_DDBB_CGS_FEATURE_RELENTLESS">
+	<element name="Pounce (Hybrid or tiger form only)" type="Class Feature" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_FEATURE_RELENTLESS">
 		<description>
 			<p>If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC (8 + Strength Bonus + Profeciency Bonus) strength saving throw or be knocked prone. If the target is knocked prone, the weretiger can make one bite attack against it as a bonus action.</p>
 		</description>
