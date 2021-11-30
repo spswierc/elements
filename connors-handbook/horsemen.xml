@@ -8,7 +8,7 @@
 	</info>
 	
 	<!--DEATH-->
-	<element name="Time of Death" type="Magic Item" source="Connor’s Guide to the Spectrum" id="ID_DDBB_CGS_DEATH_SPECIAL">
+	<element name="Time of Death" type="Magic Item" source="Connor's Guide to the Spectrum" id="ID_DDBB_CGS_DEATH_SPECIAL">
 		<description>
 			<p>Pocket Watch owned by the player who embodies the aspect of the Pale rider. The pocket watch allows the user to cast the spell Slow once per battle using their spellcasting modifier (Wisdom if the character does not have a spellcasting modifier).</p>
 		</description>
