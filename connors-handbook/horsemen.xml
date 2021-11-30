@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Horsemen Items</name>
+		<update version="0.0.1">
+			<file name="horsemen.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/horsemen.xml" />
+		</update>
+	</info>
+	
+	<!--DEATH-->
+	<element name="Time of Death" type="Magic Item" source="Connor’s Guide to the Spectrum" id="ID_DDBB_CGS_DEATH_SPECIAL">
+		<description>
+			<p>Pocket Watch owned by the player who embodies the aspect of the Pale rider. The pocket watch allows the user to cast the spell Slow once per battle using their spellcasting modifier (Wisdom if the character does not have a spellcasting modifier).</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Aspect</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="3" prepared="true" />
+		</rules>
+		
+		
+		
+		
+		
+		
+		
+		<!-- After retrieving Despair, the Pale rider's steed, he is sealed witin and can be summoned for travel.-->
