@@ -14,6 +14,6 @@
 		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-mounts.xml" />
 		<file name="items-curses.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-curses.xml" />
 		<file name="class-vengeful-oathbreaker.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/class-vengeful-oathbreaker.xml" />
-		<file name="horsemen.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-horsemen.xml" />
+		<file name="horsemen.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/horsemen.xml" />
 	</files>
 </index>
