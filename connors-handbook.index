@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Connors’s Handbook</name>
-		<description>Connor’s Handbook is the essential reference for all the bullshit custom made by this tard rangler</description>
+		<name>Connor's Guide to the Spectrum</name>
+		<description>Connor's Guide to the Spectrum is the essential reference for all the bullshit custom made by this group of tards and their wrangler.</description>
 		<author>Double D Baby</author>
-		<update version="0.1">
+		<update version="1.0">
 			<file name="connors-handbook.index" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook.index" />
 		</update>
 	</info>
@@ -14,5 +14,6 @@
 		<file name="items-mounts.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-mounts.xml" />
 		<file name="items-curses.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-curses.xml" />
 		<file name="class-vengeful-oathbreaker.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/class-vengeful-oathbreaker.xml" />
+		<file name="horsemen.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/items-horsemen.xml" />
 	</files>
 </index>

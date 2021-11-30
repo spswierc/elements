@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.1.0">
 			<file name="source.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/source.xml"/>
 		</update>
 	</info>
-	<element name="Connor’s Handbook" type="Source" source="Custom" id="ID_DDBB_SOURCE_CONNORS_HANDBOOK">
+	<element name="Connor's Guide to the Spectrum" type="Source" source="Custom" id="ID_DDBB_SOURCE_CONNORS_HANDBOOK">
 		<description>
-			<![CDATA[<p>Connor’s Handbook is the essential reference for all the bullshit custom made by this tard rangler</p>]]>
+			<![CDATA[<p>Connor's Guide to the Spectrum is the essential reference for all the bullshit custom made by this tard rangler</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">CHB</set>
-			<set name="url">https://en.wikipedia.org/wiki/Bahamut_(Dungeons_%26_Dragons)/</set>
-			<set name="image">https://upload.wikimedia.org/wikipedia/en/4/4e/D%26DBahamut.jpg</set>
-			<set name="errata">https://media.wizards.com/2020/dnd/downloads/PH-Errata.pdf</set>
-			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Double D Baby</set>
+			<set name="abbreviation">CGS</set>
+			<set name="url">https://github.com/spswierc/elements</set>
+			<set name="image">https://raw.githubusercontent.com/spswierc/elements/master/Connor's%20Guide%20to%20the%20Spectrum.jpg</set>
+			<set name="errata">https://raw.githubusercontent.com/spswierc/elements/master/Connor's%20Guide%20to%20the%20Spectrum.pdf</set>
+			<set name="author" abbreviation="DDBB" url="https://github.com/spswierc/elements">Double D Baby</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
-			<set name="release">20211123</set>
+			<set name="release">20211128</set>
 		</setters>
 	</element>
 </elements>

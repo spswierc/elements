@@ -2,12 +2,12 @@
 <elements>
   <info>
     <name>Spells</name>
-    <update version="0.0.1">
+    <update version="0.1.0">
       <file name="spells.xml" url="https://raw.githubusercontent.com/spswierc/elements/master/connors-handbook/spells.xml"/>
     </update>
   </info>
 
-  <element name="Zark's Guiding Withdrawal" type="Spell" source="Connor’s Handbook" id="ID_CHB_SPELL_ZARKS_GUIDING_WITHDRAWAL">
+  <element name="Zark's Guiding Withdrawal" type="Spell" source="Connor's Guide to the Spectrum" id="ID_CGS_SPELL_ZARKS_GUIDING_WITHDRAWAL">
     <supports>Sorcerer, Wizard, Paladin</supports>
     <description>
       <p>You begin to see dark shadows grow around the edges of your vision. You pick a location or creature you know (or can describe clearly). Make wisdom save against a DC besed on the distance to your target (Up to DM discretion, though they do not have to discolse this DC to you)</p>
